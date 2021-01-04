@@ -1,0 +1,106 @@
+@keyframes hi {
+  0% {transform: skewX(0deg);}
+  50% { transform: skewX(25deg);}
+  100% { transform: skewX(-20deg);}
+}
+
+/*@keyframes heroinner {
+
+  from { transform: perspective(0)
+                 translate3d(0, 0, 0)
+                 scale3d(1, 1, 1)
+                 rotate3d(0, 0, 0, 0deg);}
+  to { transform: perspective(90px)
+                 translate3d(0, 0, 0)
+                 scale3d(1, 1, 1)
+                 rotate3d(76, 0, 0, -50deg);}
+}
+
+@keyframes jason {
+  from {transform: perspective(0)
+                 translate3d(0, 0, 0)
+                 scale3d(1, 1, 1)
+                 rotate3d(0, 0, 0, 0deg);}
+  to { transform: perspective(100px)
+                 translate3d(0, 0, 0)
+                 scale3d(1, 1, 1)
+                 rotate3d(30, 0, 0, 50deg);}
+}*/
+
+.hi {
+  animation-duration: .3s;
+  animation-iteration-count: 3.5;
+  animation-name: hi;
+  display: inline-block;
+  height: auto;
+  padding-right: .2em;
+  position: relative;
+  transform-origin: bottom center;
+  width: auto;
+  z-index: 0;
+}
+
+/*.hero-inner {
+  animation-delay: .9s;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-name: heroinner;
+  transform-origin: bottom center;
+  transform-style: flat;
+  transition-property: all;
+  z-index: 0;
+}
+
+.im {
+  //animation-name: im;
+  display: inline-block;
+  height: auto;
+  padding-right: .15em;
+  position: relative;
+  width: auto;
+}
+
+.jay {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  width: auto;
+}
+
+/*.jason {
+  animation-delay: 1.2s;
+  animation-duration: .6s;
+  animation-iteration-count: 1;
+  animation-name: jason;
+  animation-timing-function: ease-out;
+  transform-origin: bottom center;
+  transform-style: flat;
+  transition-property: all;
+  z-index: 0;
+}*/
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}

@@ -150,9 +150,15 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-### Node Modules ###
+### Node Modules and stuff ###
 
 node_modules/
+
+package-lock.json
+package.json
+yarn.lock
+dist/
+extra/
 
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode

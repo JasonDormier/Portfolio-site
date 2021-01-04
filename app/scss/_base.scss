@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: $black;
+  font-family: $main-font;
+  font-size: 1em;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+  //border: solid; black; 1px;
+}
+
+span {
+  display: inline-block;
+}
+
+h1 {
+  font-family: $header-font;
+  font-size: 4em;
+  margin: 0;
+}
+
+h2 {
+  font-family: $header-font;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 20px 0 30px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+p {
+  font-family: $main-font;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.25em;
+}
+
+@media only screen and (min-width: 640px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (min-width: 880px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  h1 {
+    font-size: 6rem;
+  }
+}

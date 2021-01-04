@@ -1,0 +1,35 @@
+
+.modal-contact {
+  background-color: $black;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.modal-content{
+  background: $liorange;
+  border: 1px solid $skyblue;
+  height:500px;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.close{
+  color: $black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus{
+  color: $offwhite;
+  cursor: pointer;
+  text-decoration: none;
+
+}

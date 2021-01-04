@@ -1,0 +1,45 @@
+
+.icon-big {
+  font-size: 5rem;
+}
+
+.center h2, .center {
+  text-align: center;
+}
+
+.summary {
+  font-size: .9rem;
+  text-align: left;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.intro {
+  font-family: $header-font;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 20px 0 30px;
+}
+
+.statement {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 20px 0 30px;
+}
+
+@media only screen and(min-width: 640px) {
+  .iconbig {
+    font-size: 6vw;
+  }
+
+  .summary {
+    font-size: 1rem;
+  }
+
+  .statement  {
+    font-size: 1.5rem;
+  }
+}
